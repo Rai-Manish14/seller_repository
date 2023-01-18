@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.cts.seller.BuyerFeignServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.686 s <<< FAILURE! - in com.cts.seller.BuyerFeignServiceTest
+getBiddingByProductId  Time elapsed: 0.678 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.cts.seller.feign.BuyerFeign.getBidByProductId(int)" because "this.buyerFeign" is null
+	at com.cts.seller.BuyerFeignServiceTest.getBiddingByProductId(BuyerFeignServiceTest.java:46)
+
